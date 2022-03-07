@@ -10,7 +10,7 @@ import "@openzeppelin/contracts/utils/Base64.sol";
 contract MyToken is ERC721 {
     using Strings for uint256;
 
-    constructor() ERC721("GameItem", "ITM") {}
+    constructor() ERC721("TOKEN", "ZKU") {}
 
     function tokenURI(uint256 tokenId)
         public
